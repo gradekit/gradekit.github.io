@@ -1,12 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import Policy from './controllers/policy';
-import './App.css';
+import Terms from './controllers/terms';
+import { Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Policy />
+    <div>
+      <Route path='/privacy' component={Policy}></Route>
+      <Route path='/terms' component={Terms}></Route>
     </div>
   );
 }
