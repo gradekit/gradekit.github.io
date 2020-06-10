@@ -12,39 +12,102 @@
     margin-left: 80px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
     flex: 1;
 }
 .description {
     margin: 0;
+    font-size: 25px;
+    margin-bottom: 40px;
     color: white;
+    text-align: center;
+}
+.downloadButton {
+    border-radius: 20px;
+    border: 2px white solid;
+    color: white;
+    width: 50%;
+    height: 50px;
+    background-color: inherit;
+    cursor: pointer;
+    font-size: 16px;
 }
 .screenshotContainer {
     flex: 1;
-    margin-right: 80px;
+    margin: 0 80px;
 }
 .device {
     background-image: url("../../assets/iphone_6_plus_black_port.png");
-    background-size: 255px;
-    max-width: 100%;
+    background-size: 300px;
+    width: 100%;
     height: 80vh;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 .screenshot {
     max-width: 100%;
-    max-height: 400px;
+    max-height: 463px;
+    margin-top: 70px;
+    margin-left: 20px;
+    overflow: hidden;
 }
 .downloadContainer {
     height: 60vh;
+    background: linear-gradient(90deg, rgba(84,222,190,1) 0%, rgba(36,188,153,1) 100%);
+    display: flex;
+    flex-direction: column;
+}
+.downloadTitle {
+    margin: 10vh auto 0 auto;
+    color: white;
+    font-size: 40px;
+}
+.downloadLink {
+    margin: 50px auto 0 auto;
+    width: 200px;
+    height: 200px;
 }
 .featuresContainer {
     height: 100vh;
     display: flex;
+    flex-direction: row;
+}
+li {
+    text-align: center;
+}
+.features {
+    flex: 1;
+    display: flex;
     flex-direction: column;
+    padding: 10px 0 0 50px;
+}
+.featuresRow {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.feature {
+    font-size: 25px;
 }
 .carouselContainer {
-    width: 50%;
+    margin-top: 10px;
+    width: 40%;
+    margin-right: 15%;
+    background-repeat: no-repeat;
 }
 .carouselItem {
-    height: 50vh !important;
-    max-width: 100%;
+    height: 75vh !important;
+    max-width: 80%;
+}
+.contactContainer {
+    height: 30vh;
+}
+.footer {
+    background: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
 }
