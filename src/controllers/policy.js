@@ -4,7 +4,7 @@ import './module.style.css';
 export default class Policy extends Component {
     render() {
         return (
-        <body>
+        <body style={{margin: '20px 80px'}}>
             <strong>Privacy Policy</strong> 
             <p>
             Korman Chen built the GradeKit app as

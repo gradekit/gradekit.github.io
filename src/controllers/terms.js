@@ -4,7 +4,7 @@ import './module.style.css';
 export default class Terms extends Component {
     render() {
         return (
-            <body>
+            <body style={{margin: '20px 80px'}}>
             <strong>Terms &amp; Conditions</strong> <p>
                   By downloading or using the app, these terms will
                   automatically apply to you – you should make sure therefore
