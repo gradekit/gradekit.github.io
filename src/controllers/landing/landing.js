@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 import classes from './style.module.css';
 import NavBar from '../../components/NavBar/NavBar';
 import AliceCarousel from 'react-alice-carousel';
@@ -13,18 +13,26 @@ import screenshot_6 from '../../assets/screenshot_6.png';
 import app_store_badge from '../../assets/app_store_badge.svg';
 
 
-const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop-59)   
-
 function Landing() { 
     const landingRef = useRef(null);
     const downloadRef = useRef(null);
     const featuresRef = useRef(null);
     const contactRef = useRef(null);
+    const [offset, setOffset] = useState(window.innerHeight*0.08);
+    const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop-offset)   
     const scrollToLanding = () => scrollToRef(landingRef);
     const scrollToDownload = () => scrollToRef(downloadRef);
     const scrollToFeatures = () => scrollToRef(featuresRef);
     const scrollToContact = () => scrollToRef(contactRef);
-    const handleOnDragStart = (e) => e.preventDefault()
+    const handleOnDragStart = (e) => e.preventDefault();
+
+    useEffect(() => {
+        function handleResize() {
+            setOffset(window.innerHeight*0.08);
+        }
+      
+        window.addEventListener('resize', handleResize);
+    }, []);
 
     return (
         <div className={classes.landingPageContainer}>

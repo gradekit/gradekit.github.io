@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './module.style.css';
+import classes from './style.module.css';
 
 export default class Policy extends Component {
     render() {
         return (
-        <body style={{margin: '20px 80px'}}>
+        <body className={classes.pageContainer}>
             <strong>Privacy Policy</strong> 
             <p>
             Korman Chen built the GradeKit app as

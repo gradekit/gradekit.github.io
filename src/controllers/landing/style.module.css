@@ -66,7 +66,7 @@
 .downloadLink {
     margin: 50px auto 0 auto;
     width: 200px;
-    height: 200px;
+    height: auto;
 }
 .featuresContainer {
     height: 100vh;
@@ -101,6 +101,9 @@ li {
     height: 75vh !important;
     max-width: 80%;
 }
+.carouselContainer.div {
+    padding-left: 0 !important;
+}
 .contactContainer {
     height: 30vh;
 }
@@ -109,5 +112,44 @@ li {
     text-align: center;
     display: flex;
     flex-direction: column;
-    height: 20vh;
+    justify-content: center;
+    height: 10vh;
+}
+@media(max-width: 830px) {
+    .landingContainer {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        height: auto;
+    }
+    .descriptionContainer {
+        margin-left: 0;
+        padding-top: 30px;
+    }
+    .screenshotContainer {
+        margin: 40px 0 0 0;
+        width: 100%;
+    }
+    .device {
+        background-position: top;
+        text-align: center;
+    }
+    .screenshot {
+        margin-left: 2px;
+    }
+    .featuresContainer {
+        flex-direction: column;
+        height: auto;
+    }
+    .featuresRow {
+        flex-direction: column;
+    }
+    .features {
+        padding: 0;
+        text-align: center;
+    }
+    .carouselContainer {
+        width: 100%;
+        margin: 0;
+    }
 }

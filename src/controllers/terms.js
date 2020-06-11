@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './module.style.css';
+import classes from './style.module.css';
 
 export default class Terms extends Component {
     render() {
         return (
-            <body style={{margin: '20px 80px'}}>
+            <body className={classes.pageContainer}>
             <strong>Terms &amp; Conditions</strong> <p>
                   By downloading or using the app, these terms will
                   automatically apply to you – you should make sure therefore

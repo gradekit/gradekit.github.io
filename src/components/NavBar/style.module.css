@@ -39,3 +39,14 @@ a:link, a:visited {
 a {
     cursor: pointer;
 }
+@media(max-width: 830px) {
+    .navigationBar {
+        margin: 0 20px;
+    }
+    .firstItem {
+        font-size: 25px;
+    }
+    .navItems {
+        width: 50%;
+    }
+}
