@@ -11,6 +11,9 @@ import screenshot_4 from '../../assets/screenshot_4.png';
 import screenshot_5 from '../../assets/screenshot_5.png';
 import screenshot_6 from '../../assets/screenshot_6.png';
 import app_store_badge from '../../assets/app_store_badge.svg';
+import github_logo from '../../assets/github.svg';
+import linkedin_logo from '../../assets/linkedin.svg';
+import personal_icon from '../../assets/personal_icon.png';
 
 
 function Landing() { 
@@ -51,7 +54,7 @@ function Landing() {
             <section ref={downloadRef} className={classes.downloadContainer}>
                 <p className={classes.downloadTitle}>Download Title</p>
                 <a className={classes.downloadLink} href="https://apps.apple.com/app/id1516769736">
-                    <img src={app_store_badge}></img>
+                    <img src={app_store_badge} alt="app_store_badge"></img>
                 </a>
             </section>
             <section ref={featuresRef} className={classes.featuresContainer}>
@@ -67,22 +70,53 @@ function Landing() {
                 </div>
                 <div className={classes.carouselContainer}>
                     <AliceCarousel mouseTrackingEnabled>
-                    <img src={screenshot_4} onDragStart={handleOnDragStart} className={classes.carouselItem}/>
-                    <img src={screenshot_3} onDragStart={handleOnDragStart} className={classes.carouselItem}/>
-                    <img src={screenshot_2} onDragStart={handleOnDragStart} className={classes.carouselItem}/>
-                    <img src={screenshot_5} onDragStart={handleOnDragStart} className={classes.carouselItem}/>
-                    <img src={screenshot_6} onDragStart={handleOnDragStart} className={classes.carouselItem}/>  
+                    <img src={screenshot_4} onDragStart={handleOnDragStart} className={classes.carouselItem} alt="screenshot"/>
+                    <img src={screenshot_3} onDragStart={handleOnDragStart} className={classes.carouselItem} alt="screenshot"/>
+                    <img src={screenshot_2} onDragStart={handleOnDragStart} className={classes.carouselItem} alt="screenshot"/>
+                    <img src={screenshot_5} onDragStart={handleOnDragStart} className={classes.carouselItem} alt="screenshot"/>
+                    <img src={screenshot_6} onDragStart={handleOnDragStart} className={classes.carouselItem} alt="screenshot"/>  
                     </AliceCarousel>
                 </div>
             </section>
             <section ref={contactRef} className={classes.contactContainer}>
-                <div>
-                    CONTACT
+                <div className={classes.personalContainer}>
+                    <p className={classes.name}>
+                        Korman Chen
+                    </p>
+                    <div className={classes.logos}>
+                        <a href="" rel="noopener noreferrer" target="_blank">
+                            <img className={classes.logo} src={personal_icon} alt="logo"></img>
+                        </a>
+                        <a href="" rel="noopener noreferrer" target="_blank">
+                            <img className={classes.logo} src={github_logo} alt="logo"></img>
+                        </a>
+                        <a href="" rel="noopener noreferrer" target="_blank" style={{marginLeft: "10px"}}>
+                            <img className={classes.logo} src={linkedin_logo} alt="logo"></img>
+                        </a>
+                    </div>
                 </div>
+                <div>
+                <div className={classes.personalContainer}>
+                    <p className={classes.name}>
+                        Kevin Diec
+                    </p>
+                    <div className={classes.logos}>
+                        <a href="https://3kevind.github.io/kevindiec/" target="_blank" rel="noopener noreferrer">
+                            <img className={classes.logo} src={personal_icon} alt="logo"></img>
+                        </a>
+                        <a href="https://github.com/3kevind/" target="_blank" rel="noopener noreferrer">
+                            <img className={classes.logo} src={github_logo} alt="logo"></img>
+                        </a>
+                        <a href="https://www.linkedin.com/in/kevin-diec/" target="_blank" rel="noopener noreferrer" style={{marginLeft: "10px"}}>
+                            <img className={classes.logo} src={linkedin_logo} alt="logo"></img>
+                        </a>
+                    </div>
+                </div>
+            </div>
             </section>
             <section className={classes.footer}>
-                <Link to="/privacy">Privacy Policy</Link>
-                <Link to="/terms">Terms</Link>
+                <Link to="/privacy" style={{color: "rgba(81,171,242,1)"}}>Privacy Policy</Link>
+                <Link to="/terms" style={{color: "rgba(81,171,242,1)"}}>Terms</Link>
             </section>
         </div>
     )

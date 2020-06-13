@@ -105,14 +105,35 @@ li {
     padding-left: 0 !important;
 }
 .contactContainer {
-    height: 30vh;
+    height: 40vh;
+    background-color: #FF6B6B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.personalContainer {
+}
+.name {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.logos {
+    text-align: center;
+}
+.logo {
+    height: 100px;
+    width: 100px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(97deg) brightness(104%) contrast(103%);
+    margin: 20px 10px 0 10px;
 }
 .footer {
-    background: black;
+    background: #333131;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     height: 10vh;
 }
 @media(max-width: 830px) {
@@ -151,5 +172,17 @@ li {
     .carouselContainer {
         width: 100%;
         margin: 0;
+    }
+    .contactContainer {
+        flex-direction: column;
+        height: auto;
+    }
+    .logos {
+        margin-bottom: 20px;
+    }
+    .logo {
+        margin-top: 0px;
+        width: 80px;
+        height: 80px;
     }
 }
