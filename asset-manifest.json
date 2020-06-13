@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.b7dc3e5f.chunk.css",
-    "main.js": "/static/js/main.aea0d616.chunk.js",
-    "main.js.map": "/static/js/main.aea0d616.chunk.js.map",
+    "main.css": "/static/css/main.655ba2df.chunk.css",
+    "main.js": "/static/js/main.33aab5c9.chunk.js",
+    "main.js.map": "/static/js/main.33aab5c9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.91f38002.js",
     "runtime-main.js.map": "/static/js/runtime-main.91f38002.js.map",
     "static/css/2.34c0de18.chunk.css": "/static/css/2.34c0de18.chunk.css",
-    "static/js/2.afe750d5.chunk.js": "/static/js/2.afe750d5.chunk.js",
-    "static/js/2.afe750d5.chunk.js.map": "/static/js/2.afe750d5.chunk.js.map",
+    "static/js/2.4e8ff652.chunk.js": "/static/js/2.4e8ff652.chunk.js",
+    "static/js/2.4e8ff652.chunk.js.map": "/static/js/2.4e8ff652.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2224955712350825a52ce3ab5c5afcae.js": "/precache-manifest.2224955712350825a52ce3ab5c5afcae.js",
+    "precache-manifest.cc96a4ac3c99d0ef600a8df8522c7319.js": "/precache-manifest.cc96a4ac3c99d0ef600a8df8522c7319.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.34c0de18.chunk.css.map": "/static/css/2.34c0de18.chunk.css.map",
-    "static/css/main.b7dc3e5f.chunk.css.map": "/static/css/main.b7dc3e5f.chunk.css.map",
-    "static/js/2.afe750d5.chunk.js.LICENSE.txt": "/static/js/2.afe750d5.chunk.js.LICENSE.txt",
+    "static/css/main.655ba2df.chunk.css.map": "/static/css/main.655ba2df.chunk.css.map",
+    "static/js/2.4e8ff652.chunk.js.LICENSE.txt": "/static/js/2.4e8ff652.chunk.js.LICENSE.txt",
     "static/media/app_store_badge.svg": "/static/media/app_store_badge.b0954a5d.svg",
+    "static/media/github.svg": "/static/media/github.9407832c.svg",
     "static/media/style.module.css": "/static/media/iphone_6_plus_black_port.fa067b93.png",
+    "static/media/linkedin.svg": "/static/media/linkedin.3dff283b.svg",
     "static/media/screenshot_1.png": "/static/media/screenshot_1.1d746d7d.png",
     "static/media/screenshot_2.png": "/static/media/screenshot_2.dc9f1333.png",
     "static/media/screenshot_3.png": "/static/media/screenshot_3.0ce130dc.png",
@@ -26,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.91f38002.js",
     "static/css/2.34c0de18.chunk.css",
-    "static/js/2.afe750d5.chunk.js",
-    "static/css/main.b7dc3e5f.chunk.css",
-    "static/js/main.aea0d616.chunk.js"
+    "static/js/2.4e8ff652.chunk.js",
+    "static/css/main.655ba2df.chunk.css",
+    "static/js/main.33aab5c9.chunk.js"
   ]
 }
