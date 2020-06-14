@@ -59,9 +59,10 @@
     flex-direction: column;
 }
 .downloadTitle {
-    margin: 10vh auto 0 auto;
+    margin: 10vh 10vw 0 10vw;
     color: white;
     font-size: 40px;
+    text-align: center;
 }
 .downloadLink {
     margin: 50px auto 0 auto;
@@ -81,6 +82,9 @@ li {
     display: flex;
     flex-direction: column;
     padding: 10px 0 0 50px;
+    height: 50%;
+    justify-content: space-between;
+    text-align: center;
 }
 .featuresRow {
     display: flex;
@@ -90,6 +94,7 @@ li {
 }
 .feature {
     font-size: 25px;
+    font-weight: bold;
 }
 .carouselContainer {
     margin-top: 10px;
@@ -158,6 +163,9 @@ li {
     .screenshot {
         margin-left: 2px;
     }
+    .downloadContainer {
+        height: auto;
+    }
     .featuresContainer {
         flex-direction: column;
         height: auto;
@@ -168,6 +176,9 @@ li {
     .features {
         padding: 0;
         text-align: center;
+    }
+    .feature {
+        margin-bottom: 50px;
     }
     .carouselContainer {
         width: 100%;

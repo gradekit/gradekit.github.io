@@ -40,7 +40,7 @@ export default class Terms extends Component {
                   </p> <p>
                     Link to Terms and Conditions of third party service
                     providers used by the app
-                  </p> <ul><li><a href="https://firebase.google.com/terms/analytics" target="_blank" rel="noopener noreferrer">Google Analytics for Firebase</a></li></ul></div> <p>
+                  </p> <ul><li className={classes.policyListItem}><a href="https://firebase.google.com/terms/analytics" target="_blank" rel="noopener noreferrer" style={{color: "blue"}}>Google Analytics for Firebase</a></li></ul></div> <p>
                   You should be aware that there are certain things that
                   Korman Chen will not take responsibility for. Certain
                   functions of the app will require the app to have an active

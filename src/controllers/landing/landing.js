@@ -63,7 +63,7 @@ function Landing() {
                         <div className={classes.feature}>GPA & Grade Tracker</div>
                         <div className={classes.feature}>See how your scores affect your GPA</div>
                     </div>
-                    <div className={classes.featuresRow} style={{marginTop: "35vh"}}>
+                    <div className={classes.featuresRow}>
                         <div className={classes.feature}>Custom Grading Scales</div>
                         <div className={classes.feature}>Hide courses/assignments from tracking</div>
                     </div>

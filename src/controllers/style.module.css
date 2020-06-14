@@ -4,3 +4,6 @@ body {
 .pageContainer {
     padding: 1em;
 }
+.policyListItem {
+    text-align: left;
+}
