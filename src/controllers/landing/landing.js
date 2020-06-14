@@ -52,7 +52,7 @@ function Landing() {
                 </div>
             </section>
             <section ref={downloadRef} className={classes.downloadContainer}>
-                <p className={classes.downloadTitle}>Download Title</p>
+                <p className={classes.downloadTitle}>The most detailed and personalizable GPA & Grade Tracker out there.</p>
                 <a className={classes.downloadLink} href="https://apps.apple.com/app/id1516769736">
                     <img src={app_store_badge} alt="app_store_badge"></img>
                 </a>
@@ -60,12 +60,12 @@ function Landing() {
             <section ref={featuresRef} className={classes.featuresContainer}>
                 <div className={classes.features}>
                     <div className={classes.featuresRow}>
-                        <div className={classes.feature}>FEATURE 1</div>
-                        <div className={classes.feature}>FEATURE 2</div>
+                        <div className={classes.feature}>GPA & Grade Tracker</div>
+                        <div className={classes.feature}>See how your scores affect your GPA</div>
                     </div>
                     <div className={classes.featuresRow} style={{marginTop: "35vh"}}>
-                        <div className={classes.feature}>FEATURE 3</div>
-                        <div className={classes.feature}>FEATURE 4</div>
+                        <div className={classes.feature}>Custom Grading Scales</div>
+                        <div className={classes.feature}>Hide courses/assignments from tracking</div>
                     </div>
                 </div>
                 <div className={classes.carouselContainer}>
@@ -84,13 +84,13 @@ function Landing() {
                         Korman Chen
                     </p>
                     <div className={classes.logos}>
-                        <a href="" rel="noopener noreferrer" target="_blank">
+                        <a href="https://kchen97.github.io/home/" rel="noopener noreferrer" target="_blank">
                             <img className={classes.logo} src={personal_icon} alt="logo"></img>
                         </a>
-                        <a href="" rel="noopener noreferrer" target="_blank">
+                        <a href="https://github.com/kchen97" rel="noopener noreferrer" target="_blank">
                             <img className={classes.logo} src={github_logo} alt="logo"></img>
                         </a>
-                        <a href="" rel="noopener noreferrer" target="_blank" style={{marginLeft: "10px"}}>
+                        <a href="https://www.linkedin.com/in/kormanchen/" rel="noopener noreferrer" target="_blank" style={{marginLeft: "10px"}}>
                             <img className={classes.logo} src={linkedin_logo} alt="logo"></img>
                         </a>
                     </div>
